@@ -352,7 +352,7 @@ echo '</a></div></div>';
    		<?php
 			if( is_user_logged_in() ) {
 				    echo '<p><a title="Contact by email" alt="Email" class="mpix medlarge nounderline shadowlight" href="mailto:';
-				    echo the_author_meta('email');
+				    echo $curauth->user_email;
 				    echo '">m</a></p>';
 			}
 		?>
@@ -430,5 +430,3 @@ echo '</a></div></div>';
 <?php get_footer(); ?>
 </body>
 </html>
-
-					
