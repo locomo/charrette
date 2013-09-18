@@ -65,7 +65,7 @@
 
 			<?php	} else { 
 				echo'<h1><span>f</span>No posts yet from '; 
-	     		 echo $user_info-> nickname;
+	     		 echo $user_info->nickname;
 				//echo'</h1><p>A post is needed to see the avatar, bio and more</p><p style="font-size: 1000px; line-height: 90%" class="grey  mpix">x</p>'; 
 				//echo '<style>.avatarbio, .filtercontrols, .absences { display: none; }</style>';
 				} 
